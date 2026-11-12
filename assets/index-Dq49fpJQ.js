@@ -207,7 +207,8 @@ box-shadow:0 10px 30px rgba(15,20,35,.18);font:13px/1.35 inherit;min-width:160px
 .rgx:not(.rgx-modern) .rgx-fc{font-weight:400;color:#000}
 .rgx:not(.rgx-modern) .rgx-hc.rgx-bar{color:#656d7b}
 .rgx:not(.rgx-modern) .rgx-c{padding:0 4px;justify-content:center;text-align:center}
-.rgx:not(.rgx-modern) .rgx-num{justify-content:center;text-align:center;font-weight:400}
+/* 숫자 칸은 오른쪽 정렬(업무 기본 — 실물 기본은 가운데지만 우리는 오른쪽, 의도적 차이) */
+.rgx:not(.rgx-modern) .rgx-num{justify-content:flex-end;text-align:right;font-weight:400}
 .rgx:not(.rgx-modern) .rgx-c.rgx-right{justify-content:flex-end;text-align:right}
 .rgx:not(.rgx-modern) .rgx-c.rgx-left{justify-content:flex-start;text-align:left}
 .rgx:not(.rgx-modern) .rgx-c.rgx-bar{background:#f6f6f8;border-color:#bcc0c8;color:#000}
